@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  EncryptionDemo
+//
+//  Created by Elvist on 16/9/7.
+//  Copyright © 2016年 Elvist. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import "MD5.h"
+#import "DES.h"
+
+#import "AESCrypt.h"
+#import "NSData+CommonCrypto.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */
